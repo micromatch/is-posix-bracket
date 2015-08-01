@@ -1,0 +1,49 @@
+{
+  "name": "is-posix-bracket",
+  "description": "Returns true if the given string is a POSIX bracket expression (POSIX character class).",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/is-posix-bracket",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/is-posix-bracket",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/is-posix-bracket/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "braces",
+    "brackets",
+    "character",
+    "character-class",
+    "class",
+    "expression",
+    "posix",
+    "regex",
+    "regexp",
+    "regular"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "is-glob",
+        "is-extglob",
+        "micromatch",
+        "braces",
+        "expand-brackets"
+      ]
+    }
+  }
+}
