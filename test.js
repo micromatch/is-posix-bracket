@@ -1,10 +1,3 @@
-/*!
- * is-posix-bracket <https://github.com/jonschlinkert/is-posix-bracket>
- *
- * Copyright (c) 2015 .
- * Licensed under the MIT license.
- */
-
 'use strict';
 
 require('mocha');
