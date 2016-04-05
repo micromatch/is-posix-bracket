@@ -1,7 +1,7 @@
 {
   "name": "is-posix-bracket",
   "description": "Returns true if the given string is a POSIX bracket expression (POSIX character class).",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/is-posix-bracket",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/is-posix-bracket",
