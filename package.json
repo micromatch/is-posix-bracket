@@ -20,8 +20,8 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "gulp-format-md": "^0.1.7",
+    "mocha": "^2.4.5"
   },
   "keywords": [
     "braces",
@@ -36,14 +36,29 @@
     "regular"
   ],
   "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
     "related": {
       "list": [
-        "is-glob",
-        "is-extglob",
-        "micromatch",
         "braces",
-        "expand-brackets"
+        "expand-brackets",
+        "is-extglob",
+        "is-glob",
+        "micromatch"
       ]
+    },
+    "reflinks": [
+      "verb"
+    ],
+    "lint": {
+      "reflinks": true
     }
   }
 }
